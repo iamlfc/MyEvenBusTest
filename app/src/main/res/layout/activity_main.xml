@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.lfc.myevenbustest.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/btn_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试点击事件一"/>
+
+    <TextView
+        android:id="@+id/tv_sdisok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="SD卡是否可用"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_sdpath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="SD卡根路径"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_sdfreeroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="SD卡剩余容量"
+        android:textSize="18sp"/>
+</LinearLayout>
